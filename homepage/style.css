@@ -1,0 +1,82 @@
+.navbar {
+  padding: 0rem;
+  margin-bottom: 1rem;
+}
+/*nav{
+  background-color: #16469D;
+}*/
+.tth {
+  background-color: #16469D;
+  padding: 0.5rem;
+}
+.JSWlogo {
+  width: 10em;
+}
+
+body {
+  background-color: #ffffff;
+}
+.introduction {
+  color: white;
+  font-weight: 300;
+}
+.line-200,
+.light-100 {
+  border-color: #16469D;
+  border-width: 2px;
+}
+.card-title{
+  color: #16469D;
+}
+.introduction{
+  color: #16469D;
+}
+.card {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-color: #222222;
+  background-color: white;
+}
+.card-text{
+  color: #16469D;
+}
+.survey {
+  width: 100%;
+}
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  border-right: 6px solid #2196F3;
+}
+footer h2,
+h5 {
+  color: #16469D;
+}
+p{
+  color:#16469D;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .tth {
+    background-color: white;
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .tth {
+    background-color: #16469D;
+    padding-left: 2rem;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+}
+@media (max-width: 576px) {
+  .tth {
+    background-color: ;
+    padding-left: 2rem;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+}
